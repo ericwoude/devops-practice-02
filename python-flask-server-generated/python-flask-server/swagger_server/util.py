@@ -3,7 +3,6 @@ import datetime
 import six
 import typing
 
-
 def _deserialize(data, klass):
     """Deserializes dict, list, str into an object.
     :param data: dict, list or str.
