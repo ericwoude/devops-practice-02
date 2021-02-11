@@ -65,4 +65,4 @@ target/
 
 # vscode
 .vscode
-# VSCODE 
+venv/

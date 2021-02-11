@@ -1,4 +1,4 @@
-#!/home/eric/Documents/devops/practice2/python-flask-server-generated/python-flask-server/venv/bin/python3
+#!/home/eric/Documents/devops/practice2/venv/bin/python3
 # EASY-INSTALL-ENTRY-SCRIPT: 'names==0.3.0','console_scripts','names'
 import re
 import sys
