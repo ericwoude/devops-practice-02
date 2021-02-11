@@ -30,7 +30,7 @@ script:
 - node_modules/.bin/newman run tests/postman_collection.json -e tests/postman_environment.json
 after_success:
 - docker login -u $DOCKER_USER -p $DOCKER_PASS
-- docker tag swagger-spring-example:1.0.0 ericwoude/devops-practice-02
+- docker tag swagger-spring-example:1.0.0 ericwoude/devops-practice-02:latest
 - docker push ericwoudedevops-practice-02:latest
 env:
   global:
